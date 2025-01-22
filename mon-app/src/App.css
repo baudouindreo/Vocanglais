@@ -1,0 +1,77 @@
+/* App.css */
+
+/* Styles généraux */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Conteneur principal */
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Inputs et boutons */
+input, button {
+  font-size: 1rem;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #4a4a8c;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4a4a8c;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #37376f;
+}
+
+/* Navigation */
+nav {
+  width: 100%;
+  background-color: #4a4a8c;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  input, button {
+    width: 100%;
+  }
+
+  nav a {
+    font-size: 1rem;
+  }
+}
